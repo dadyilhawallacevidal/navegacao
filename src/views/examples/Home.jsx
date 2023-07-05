@@ -3,9 +3,10 @@ import React from "react";
 const Home = props => {
 
     return (
-        <aside className="Menu">
-            Componente Menu
-        </aside>);
+        <div className="Home">
+            <h1>Início</h1>
+            <p>Bem vindo!</p>
+        </div>);
 }
 
 

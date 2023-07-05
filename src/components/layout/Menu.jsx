@@ -4,7 +4,16 @@ const Menu = props => {
 
     return (
         <aside className="Menu">
-            Componente Menu
+            <nav>
+                <ul>
+                    <li>
+                        <a href="/">Inicício</a>
+                    </li>
+                    <li>
+                        <a href="/About">Sobre</a>
+                    </li>
+                </ul>
+            </nav>
         </aside>);
 }
 
